@@ -1,0 +1,74 @@
+ body{
+       background-color: black;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-style: bold;
+     }
+     .headofgame{
+       color:white;
+       font-size: 230%;
+     }
+     .headofgame i{
+       font-size: 35px;
+       float: right;
+       color: white;
+     }
+     header{
+       color: white;
+       display: inline-flex;
+       justify-content: space-between;
+       font-size: 22px;
+     }
+     .score{
+       display: block;
+       border:1px solid gold;
+       float:right;
+       color: white;
+       
+     }
+     section{
+       border:2px solid white;
+       color: white;
+       border-radius: 5px;
+       background-color: #22243B;
+     }
+     section .head{
+       text-align: center;
+       font-size: 200%;
+     }
+     section .question{
+       text-align: center;
+       margin-top: 30%;
+       margin-bottom: 30%;
+       font-size: 300%;
+     }
+     footer ul{
+       list-style-type: none;
+     }
+     footer ul li{
+       margin: 3px;
+       display:inline-block;
+     }
+     footer ul li a{
+       text-decoration: none;
+       font-size: 200%;
+       padding: 25px;
+       color: black;
+       display: block;
+       background-color: white;
+       border: 1px solid gold;
+       border-radius: 15px;
+     }
+     footer ul li .n:active{
+       background-color: #FF000069;
+       color:#FF0000;
+     }
+     footer ul li .s:active{
+       background-color: #23FF008F;
+       color: #23FF00;
+     }
+     .sub{
+       background-color: #4D1B1B;
+     }
+     .mul{
+       background-color: #49662A;
+     }

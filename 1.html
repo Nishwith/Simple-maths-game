@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple maths game</title>
+    <link rel="icon" href="Logo.jpg">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+<style> 
+  ul{
+    list-style-type: none;
+  }
+  ul li{
+    float: left;
+    background-color: white;
+    border:1px solid gold;
+    border-radius: 15px;
+    margin: 2px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: inline-flex;
+    font-size: 200%;
+  }
+  ul li ul li{
+    display: none;
+    border: none;
+  }
+  ul li:hover ul li{
+    display: block;
+  }
+    ol{
+     list-style-type: none;
+   }
+      ol li ol li {
+      display: none;
+      border: 1px solid white;
+      padding: 5px;
+     justify-items: space-between;
+    }
+    
+   ol li:hover ol li{
+     display:block;
+     background-color: black;
+     font-size: 50%;
+     color: white;
+     padding: 2px;
+     <!---border: 1px solid white;---->
+     
+   }
+   
+ </style>
+</head>
+<body  class="body">
+
+   <div class="headofgame">
+     <p class="head"><u>Simple maths game</u></p>
+     <ol class="ul"><li><a href=""><i class="fa fa-info-circle"></i></a>
+    <ol><li>This is a simple maths game.</li> 
+    <li>This game having 40 levels.</li>
+    <li>100 points bonus.</li> 
+    <li>wins with 500 points.</li>
+    <li>First 10 levels about addition.</li>
+    <li>second 10 levels about subtraction.</li>
+    <li>third 10 levels about multiplition.</li>
+    <li>fourth 10 levels about divion.</li></ol></li></ol>
+      
+     </div>
+     <center> <img src="Logo.jpg" width="50%"></center>
+     <ul>
+       <li class="lia"><a href="Add.html">Addition</a></li>
+       <li class="li"><a href="">Subtraction</a>
+       <ul>
+         <li>Please play levels- 1 to 10.
+       </li>
+       </ul></li>
+       <li class="lia"><a href="">Multiplication</a>
+       <ul>
+         <li>Please play levels- 1 to 20.
+         </li>
+       </ul></li>
+       <li class="li"><a href="">Division</a>
+       <ul>
+         <li>Please play levels- 1 to 30.
+         </li>
+       </ul></li>
+       </ul>
+</body>
+
+</html>
