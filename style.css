@@ -82,3 +82,11 @@
      float: left;
      text-decoration: none;
    }
+a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    background-color: black;
+    display: inline-block;
+    border: 1px solid white;
+    }
